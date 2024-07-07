@@ -7,5 +7,7 @@ package com.damm.common.exception;
  * @date 2024年03月02日
  * @version: 1.0
  */
-public class ResponseResult {
+public class ResponseResult extends RuntimeException {
+
+
 }

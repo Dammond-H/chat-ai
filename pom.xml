@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.damm</groupId>
-    <artifactId>chatgpt-2024</artifactId>
+    <artifactId>chat-ai</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -19,6 +19,7 @@
     <modules>
         <module>chatgpt-common</module>
         <module>chatgpt-admin</module>
+        <module>chatgpt-core</module>
     </modules>
 
     <properties>

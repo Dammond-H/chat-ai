@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.damm</groupId>
-        <artifactId>chatgpt-2024</artifactId>
+        <artifactId>chat-ai</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 

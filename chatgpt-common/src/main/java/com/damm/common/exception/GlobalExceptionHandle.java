@@ -1,6 +1,7 @@
 package com.damm.common.exception;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 
 /**
  * @author 黄林强
@@ -12,5 +13,10 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 
 @ControllerAdvice
 public class GlobalExceptionHandle {
+
+    @ExceptionHandler(Exception.class)
+    public BizException handleException(BizException exception) {
+        return new BizException(exception.getCode(), exception.getMessage());
+    }
 
 }
