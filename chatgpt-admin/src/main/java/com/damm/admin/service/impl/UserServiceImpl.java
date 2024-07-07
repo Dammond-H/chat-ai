@@ -3,12 +3,11 @@ package com.damm.admin.service.impl;
 import com.damm.admin.entity.User;
 import com.damm.admin.mapper.UserMapper;
 import com.damm.admin.service.UserService;
-import org.springframework.stereotype.Service;
+import jakarta.annotation.Resource;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
-
-import javax.annotation.Resource;
+import org.springframework.stereotype.Service;
 
 /**
  * (User)表服务实现类

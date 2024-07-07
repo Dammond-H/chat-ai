@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2024年03月02日
  * @version: 1.0
  */
-@SpringBootApplication(scanBasePackages = {"com.damm.admin"})
+@SpringBootApplication(scanBasePackages = {"com.damm.admin", "com.damm.common"})
 public class ChatgptAdminApplication {
     public static void main(String[] args) {
         SpringApplication.run(ChatgptAdminApplication.class, args);

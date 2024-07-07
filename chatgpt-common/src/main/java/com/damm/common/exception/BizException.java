@@ -9,6 +9,7 @@ package com.damm.common.exception;
  */
 public class BizException extends RuntimeException{
 
+    public final static BizException INVALID_PARAM = new BizException(10001, "参数异常");
     public final static BizException THIRD_CALL_EXCEPTION = new BizException(30001, "远程服务器请求异常");
     public final static BizException THIRD_RETURN_EXCEPTION = new BizException(30002, "远程服务器响应异常");
     public final static BizException SYSTEM_ERROR = new BizException(50001, "服务器异常");
